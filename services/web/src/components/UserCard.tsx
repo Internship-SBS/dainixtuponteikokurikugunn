@@ -99,8 +99,8 @@ export function UserCard(props: Props) {
             </Alert>
 
 
-      <Text size="xs">{user.updatedAt.toDateString()}</Text>
-      <Text size="xs">{user.startTime.toDateString()}</Text>
+      出勤時刻<Text size="xs">{user.updatedAt.toDateString()}</Text>
+      変更時刻<Text size="xs">{user.startTime.toDateString()}</Text>
 
           </Stack>
         </UnstyledButton>
