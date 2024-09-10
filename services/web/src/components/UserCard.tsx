@@ -11,6 +11,7 @@ import {
   ThemeIcon,
   Flex,
   Grid,
+  MultiSelect,
 } from "@mantine/core";
 import { Status, User, UserStatus } from "../../../api/prisma/client";
 import { useDisclosure } from "@mantine/hooks";
@@ -95,6 +96,11 @@ export function UserCard(props: Props) {
             <Alert color="gray" px="xs" py={8} mih={66}>
               <Text c="dark">{comment}</Text>
             </Alert>
+
+
+      <Text size="xs">{user.updatedAt.toDateString()}</Text>
+      <Text size="xs">{user.startTime.toDateString()}</Text>
+
           </Stack>
         </UnstyledButton>
       </Paper>
