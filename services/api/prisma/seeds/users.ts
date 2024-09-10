@@ -1,7 +1,7 @@
 export const users = [
   {
     id: "testLoginUserId59234619",
-    rubi: "",
+    rubi: "てすとたろう",
     name: "テスト太郎",
     email: "test@example.com",
     comment: "",
@@ -10,6 +10,7 @@ export const users = [
   },
   {
     name: "小林 穣二",
+    rubi: "こばやしじょうじ",
     email: "jouji_kobayashi@example.com",
     comment: "",
     division: "広報部",
@@ -17,6 +18,7 @@ export const users = [
   },
   {
     name: "鳥井 幸仁",
+    rubi: "とりいゆきひと",
     email: "yukihito_torii@example.com",
     comment: "",
     division: "制作部",
@@ -24,6 +26,7 @@ export const users = [
   },
   {
     name: "藤沢 周平",
+    rubi: "ふじさわしゅうへい",
     email: "shuhei_fujisawa@example.com",
     comment: "",
     division: "広報部",
@@ -31,6 +34,7 @@ export const users = [
   },
   {
     name: "杉本 一郎",
+    rubi: "すぎもといちろう",
     email: "ichiro_sugimoto@example.com",
     comment: "",
     division: "広報部",
@@ -59,6 +63,7 @@ export const users = [
   },
   {
     name: "榎本 道臣",
+    rubi: "えのもと",
     email: "michiomi_enomoto@example.com",
     comment: "",
     division: "人事部",

@@ -22,7 +22,7 @@ async function main() {
         comment: user.comment,
         extension: user.extension,
        // startTime: user.startTime,
-        rubi: "",//user.rubi,
+        rubi: user.rubi || "",
         
         UserStatus: {
           create: {

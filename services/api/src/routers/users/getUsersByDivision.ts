@@ -24,7 +24,7 @@ export const getUsersByDivision = publicProcedure
         },
       },
       orderBy: {
-        id: "desc",
+        rubi: "asc",
       },
       include: {
         UserStatus: {

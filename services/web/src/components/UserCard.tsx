@@ -54,6 +54,7 @@ export function UserCard(props: Props) {
                   {user.UserStatus.Status.name}
                 </Pill>
                 <Title order={2} c="dark" size={20}>
+                  {user.rubi}
                   {name}
                 </Title>
               </Group>
