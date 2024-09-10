@@ -23,6 +23,9 @@ export const getUsersByDivision = publicProcedure
           },
         },
       },
+      orderBy: {
+        id: "desc",
+      },
       include: {
         UserStatus: {
           take: 1,
