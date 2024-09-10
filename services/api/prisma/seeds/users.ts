@@ -1,6 +1,7 @@
 export const users = [
   {
     id: "testLoginUserId59234619",
+    rubi: "",
     name: "テスト太郎",
     email: "test@example.com",
     comment: "",

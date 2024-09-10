@@ -8,6 +8,9 @@ export const UserSchema = z.object({
   email: z.string().email(),
   comment: z.string().nullable(),
   extension: z.string().nullable(),
+  rubi: z.string(),
+  startTime: z.coerce.date(),
+  updatedAt: z.coerce.date(),
 } satisfies SchemaOf<User>);
 export const UserCreateSchema = UserSchema.omit({ id: true });
 export const UserUpdateSchema = UserSchema;

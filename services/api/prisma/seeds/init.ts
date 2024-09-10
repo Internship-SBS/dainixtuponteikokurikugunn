@@ -21,6 +21,9 @@ async function main() {
         email: user.email,
         comment: user.comment,
         extension: user.extension,
+       // startTime: user.startTime,
+        rubi: "",//user.rubi,
+        
         UserStatus: {
           create: {
             statusId: checkout.id,
