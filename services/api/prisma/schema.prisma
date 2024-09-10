@@ -17,6 +17,7 @@ model User {
   id         String       @id() @default(uuid())
   name       String
   rubi       String //名前のルビ
+  updatedAt  DateTime     @default(now()) //更新日時
   email      String       @unique
   Divisions  Division[]
   comment    String?
@@ -42,7 +43,6 @@ model UserStatus {
   userId         String
   statusId       String
   createdAt      DateTime @default(now())
-  updatedAt      DateTime @default(now()) //更新日時
 }
 
 model Status {
