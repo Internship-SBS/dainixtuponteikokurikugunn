@@ -16,6 +16,7 @@ datasource db {
 model User {
   id         String       @id() @default(uuid())
   name       String
+  rubi       String //名前のルビ
   email      String       @unique
   Divisions  Division[]
   comment    String?
@@ -36,11 +37,12 @@ model UserStatus {
   description    String?
   goDirectly     Boolean?
   returnDirectly Boolean?
+  startTime      DateTime @default(now()) //出勤時間
   endTime        String?
   userId         String
   statusId       String
   createdAt      DateTime @default(now())
-  updatedAt      DateTime @default(now()) //test
+  updatedAt      DateTime @default(now()) //更新日時
 }
 
 model Status {
